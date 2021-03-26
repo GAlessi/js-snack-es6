@@ -17,6 +17,7 @@ function es1() {
             lightBike = bike;
         }
     }
+    console.log('Esercizio 1:');
     console.log(lightBike);
 }
 
@@ -63,14 +64,17 @@ function es2() {
         newTeam['falli'] = team['falli'];
         newTeams.push(newTeam);
     }
-    console.log(Teams);
-    console.log(newTeams);
+
+    console.log('');
+    console.log('Esercizio 2');
+    console.log('Teams con tutti i valori: ' + Teams);
+    console.log('Teams con tutti i valori selezionati: ' + newTeams);
 }
 
 
 function init() {
-    // es1();
+    es1();
     es2();
 }
-// JQUERY
+
 $(document).ready(init);
