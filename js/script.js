@@ -67,8 +67,8 @@ function es2() {
 
     console.log('');
     console.log('Esercizio 2');
-    console.log('Teams con tutti i valori: ' + Teams);
-    console.log('Teams con tutti i valori selezionati: ' + newTeams);
+    console.log(Teams);
+    console.log(newTeams);
 }
 
 
